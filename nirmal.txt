@@ -1,0 +1,808 @@
+mndsy001.apmn.org
+INC0103856
+
+INC0111044 - MFA
+
+INC0109864 - ms team
+
+INC0103388
+
+INC0105704
+
+INC0111525 - Filkerig the MS team
+
+INC0104938 - garam
+
+RITM0082330
+
+HIL EPF Trust-GN/GGN/5572/313881
+http://support.microsoft.com/help
+https://testconnectivity.microsoft.com/tests/o365
+
+- We are investigate and working on this request
+
+Can we have the quick troubleshooting call to check this issue now.Thanks.
+
+As request is completed we are closing this task. Kindly reach us in case of any issue
+
+Kindly let us know if anything required. 
+
+
+
+Since there is no response from your side we assume that the issue is resolved and proceed to close this ticket. Please let us know if any further assistance is required. 
+- Hence resolved the incident
+
+- 3 strike mail completed.
+- Since there is no response from your side we assume that the issue is resolved and proceed to close this ticket. Please let us know if any further assistance is required. 
+- Hence resolved the incident
+
+Start-ADSyncSyncCycle -policytype Delta
+
+ Start-ADSyncSyncCycle -policytype Delta
+
+20:19 Harish : https://aka.ms/SaRA-OutlookAdvDiagnostics
+20:43 Harish : https://testconnectivity.microsoft.com/Default.aspx?testId=o365Ola
+
+https://support.office.com/en-us/article/troubleshoot-notifications-for-teams-mobile-apps-6d125ac2-e440-4fab-8e4c-2227a52d460c?ui=en-US&rs=en-IN&ad=IN#ID0EAABAAA=Android
+
+https://docs.microsoft.com/en-us/office365/troubleshoot/access-management/office-prompt-for-credentials
+https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/spam-confidence-levels?view=o365-worldwide
+https://docs.microsoft.com/en-in/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-550-5-1-1-through-5-1-20-in-exchange-online
+
+https://support.microsoft.com/en-in/help/2695805/how-to-troubleshoot-performance-issues-in-outlook
+
+https://support.microsoft.com/en-in/help/832925/how-to-configure-the-size-limit-for-both-pst-and-ost-files-in-outlook
+
+https://kb.intermedia.net/article/2581
+
+https://gallery.technet.microsoft.com/office/Exchange-2013-Performance-23bcca58
+
+https://mitsprod.service-now.com/sp/?id=kb_article&sys_id=266cd13cdbff8c1095449c1bd3961917#_Toc35876100 - white boardduxfordwarehouse@welchgroup.co.uk
+=============================================================================
+
+please provide the message header information or you can attach the original email in the ticket.so that we can check the reason and find the solution.
+
+============================================================================
+Hi Mardhiah,
+
+As requested, We have blocked the email address in office 365.
+
+-  pilarmc@aridosmengibar.com
+
+Please let us know, Still if you are receiving the same mail in your Inbox.
+
+Kindly check and confirm the status.
+
+Thanks,
+Nirmal kumar.S
+
+=====================================
+Hi Diep,
+
+We have verified the NDR report as per attached mail, It says that "SCL: 1" - "It means that spam filtering determined the message was not spam".
+
+Please review the below screenshots for emails that were  legitimate "good" emails.
+
+Kindly let me know, If you would like to block the mail. I will sort to block it.
+
+Thanks,
+Nirmak Kumar.S
+
+==========================================================
+Hi Carla,
+
+We have fixed the issue from server end, however it should take some 90 minutes to replicate across. Hence we would request you to try sending a test email after 90 minutes and update us the status.
+
+Thanks,
+Nirmal Kumar.S
+========================================================
+Hi Lauren,
+
+We have fixed the issue from server end. Please check it now, If you are still getting the security alert notification when you go into outlook.
+
+Please restart the outlook client and after check it.
+
+Thanks,
+Nirmal kumar.S
+
+=================================
+
+Hi Team,
+
+As suggested by Microsoft team, Please change the registry setting in user machine and  after check that if user are still getting the security alert notification when login into outlook.
+
+Kindly check and update the status.
+
+Outlook2016 Clients:
+
+HKEY_CURRENT_USER\Software\Microsoft\Office\x.0\Outlook\Autodiscover
+DWORD: ExcludeLastKnownGoodUrl
+Value: 1
+
+Note: The x.0 place holder represents your version of Office (16.0 = Office 2016, Office 365 and Office 2019, 15.0 = Office 2013).
+
+Please let us know if any issues with this. 
+
+Thanks,
+Nirmal kumar.S
+
+==============================================================
+
+the user is not able to send because the group purduepvg he is trying to send to only accepts messages from people in its organization or on its allowed senders list, and the users email address isn't on the list. to fix this, user will need to contact the recepients helpdesk and infrom them to add his email address to the safe senders list or change the attribute on the group to accept emails from external email domains
+
+
+
+=============================================================================================================================================================
+
+Hi Team, 
+
+I ran a message trace on both user mailboxes for the past 3 days Please review the below screenshots for emails that were delivered to recipients. 
+
+I have investigate the NDR report and found that below details for the Recipient not found by Exchange Legacy encapsulated email address lookup in the outlook client. 
+
+Error detected: 
+
+550 5.1.11 RESOLVER.ADR.ExRecipNotFound; Recipient not found by Exchange Legacy encapsulated email address lookup 
+DSN generated by: 
+QB1PR01MB2451.CANPRD01.PROD.OUTLOOK.COM 
+
+Solution : 
+
+To prevent the mail program from using outdated address information, clear the AutoComplete Recipients list in Outlook or Outlook on the web by following the steps in this article <https://go.microsoft.com/fwlink/?LinkId=389363 > or by performing the following actions: 
+· Identify the recipient who did not receive your message by looking at the To and CC information in the Original Message Headers section below. Recipients whose names are followed by a character set beginning with 'IMCEAEX' or 'imceaex' did not receive the message. 
+· Click New Mail (in Outlook) or New Email (in Outlook on the web). 
+· Start typing in the To recipient's name or email address box, until your name appears in the drop-down list. 
+· Use the down arrow and up arrow keys to choose the recipient, and then press the Delete key to remove the entry from the AutoComplete list. 
+· Retype in the To recipient's email address box and send the message again. 
+
+@SD Team 
+
+- So kindly suggest to user for clearing the recipient Auto-Complete List from the Outlook client. Then after Hence we would request you to try sending a test email to recipient and update us the status. 
+
+The below article shows how to do this clearing the recipient Auto-Complete List from the Outlook client: 
+
+https://docs.microsoft.com/en-in/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/fix-error-code-550-5-1-1-through-5-1-20-in-exchange-online 
+
+Thanks, 
+Nirmal kumar.S
+
+=====================================================================================================================================================
+
+Hi Team,
+
+checked the users group memberships and its all good, He is part of the right groups and active sync is enabled too.
+
+Please follow the below steps to remove the current MDM profile and install a new one :
+
+On the iOS device, open "Settings" 
+Tap on "General" 
+Scroll to the bottom of the screen and tap "Profiles & Device Management" 
+Tap on the mdm profile 
+Scroll to the bottom of the screen and tap "Remove Management" 
+Confirm the action
+Thanks,
+Nirmal Kumar.S
+
+======================================================================
+Hi Team,
+
+- I ran a message trace on both user mailboxes for the past 7 days. Please review the below screenshots for No accepted emails that were not delivered to the recipient address with contains of the subjected "Mundipharma Assessment Review Update (second review) " on 3 June 2020.
+- We can see that only one accepted mail from "Bridget Berry"  delivered to "Samuel.Coverdale@mundipharmaitservices.com" with subjected for "Accepted: Mundipharma ERP / Avanade - ERP Workshop 1 & 2".Please review the below screenshots.
+- It might be outlook not properly sync while accepted the meeting  on behalf Bridget Berry from "Samuel Coverdale" to Office 365. So that It accidentally deleted meeting from outlook itself.
+- Kindly advice user to create the one test meeting and accept the meeting  on behalf Bridget Berry from "Samuel Coverdale". After let check it, Meeting should be showing in the calendar.
+
+Thanks,
+Nirmal kumar.S
+
+===============================================================================
+Hi Team,
+
+We have restored the mails for "helen.higgins@mundipharma.com" as a PST file and have placed in the below location.
+
+\\uf657.eu01.apmn.org\RITM0081780_Export\06.09.2020-1624PM\Exchange
+
+We request you to copy it from this location to "user" computer and then to map the PST file in his outlook client.
+
+Please try below steps to add the PST file:
+
+1. On the File tab, click Account Settings > Account Settings.
+2. On the Data Files tab, click Add.
+3. Click the Outlook Data File (.pst) file that you want to open, and then click OK.
+4. The Data file will now automatically display in your Folder pane in Outlook.
+
+
+Note: The PST will be in this location only for 10 days.
+
+Thanks,
+Nirmal kumar.S
+====================================================================================================
+
+Hi Team,
+
+We have checked that the e-mail function for Adrian.Jaeger@mundipharma.ch in office 365, But i am not able to find both mailbox, please let me know the full email address of mailbox it will help in searching for it.
+
+- MMCO
+- Market Access & Regulatory Affairs
+
+Thanks,
+Nirmal kumar.S
+
+==================================================================================================================
+
+Hi Karen, 
+
+I ran a message trace again to check if any sender mail "duxfordwarehouse@welchgroup.co.uk" are being blocked or quarantined for our organisation, but could not find any block.
+
+Please review the below screenshots for emails that were delivered to recipients. 
+
+I don't think this is an issue with exchange or office 365 and regarding emails sent to external vendor "duxfordwarehouse@welchgroup.co.uk". I don't have any information since "welchgroup.co.uk" is an external domain. Please you will have to contact their help desk to check if any email being blocked on their servers. 
+
+It means that ''550 5.4.300 Message expired ' - Your message couldn't be delivered. Despite repeated attempts to contact the recipient's email system it didn't respond.
+Contact the recipient by some other means (by phone, for example) and ask them to tell their email admin that it appears that their email system isn't accepting connection requests from your email system. Give them the error details shown below. It's likely that the recipient's email admin is the only one who can fix this problem.
+
+Thanks, 
+Nirmal kumar.S
+
+================================================================================================================
+
+see that you are having issues with the smtp server, please use mailrelay.eu01.apmn.org as your smtp server and try once and if you are already using this server please use casarray.eu01.apmn.org and check.
+
+==============================================================================
+
+Hi Giorgos,
+
+As per Microsoft suggested, Please following the below steps for white list the Email address in user end:
+
+If you believe this message was incorrectly marked as spam, the recipient can send us a spam false-positive report by following these steps:
+
+1) In Outlook on the web, go to the Junk Email folder and find the message that was incorrectly marked as junk.
+
+2) Right-click the message, and then click Mark as not junk.
+
+In the Report as not junk dialog, click Report.
+
+Your report automatically goes to the Microsoft Spam Analysis Team at not_junk@office365.microsoft.com<mailto:not_junk@office365.microsoft.com>. The report to help improve to avoid the spam filters.
+
+Kindly let us know, If you require any more help.
+
+Thanks & Regards,
+Nirmal Kumar .S
+
+================================================================================================================================
+Hi Mellodie,
+
+Why we are blocking this if this legit?
+
+As per the Security support team suggested that, There are file types recommended to be blocked at the email gateway and are known to be a source of infection/malicious code.
+
+DETAILS: It is recommended to block executable file types since infection risk is high. It may, for example, trigger malicious code or payload upon file click execution. Furthermore, executable file type attachment is not a good security practice, since these files can be normal attachments in most business industries and risk requires user interaction (e.g. the need to decompress, enabling of macro, or loading of disk image).
+
+Executable files types (e.g. binary, scripts and macro-enabled)
+·EXE
+·SCR
+·VBS
+·JS
+.XML
+.DOCM
+·XPS
+
+So Please ask user to use this file format ".DOCX" from Macro.
+
+=======================================================================================================================================================
+
+Please following the below step to add the shared mailbox to the outlook client:
+1) Click the File tab > Account Settings > Account Settings.
+2) Select user email address in the account list.
+3) Click Change > More Settings > Advanced tab > Add.
+4) Enter the shared account name and click OK.
+5) Click Apply > OK > Next > Finish.
+6) The shared mailbox will now automatically display in your Folder pane in Outlook.
+====================================================================================
+
+Invoice-No@mundipharmaitservices.com
+
+Get-MsolDirSyncProvisioningError -ErrorCategory PropertyConflict
+
+get-msoluser -ReturnDeletedUsers | where {$_.EmailAddresses -match "X500:/o=PURDUE/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Kristina Tonkova0e8"} | fl
+
+Get-Msoluser -All | ? {$_.ImmutableId -eq"CighRGxGikyOPOXmMn31gg=="}
+
+get-msoluser | where {$_.EmailAddresses -match "X500:/o=PURDUE/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Kristina Tonkova0e8"} | fl
+
+get-msoluser –ReturnDeletedUsers -MaxResults 10000 | where {$_.EmailAddresses -match "X500:/o=PURDUE/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=Kristina Tonkova0e8"} | fl
+
+Olaf.Schickling@mundipharma.de
+
+Olaf.Schickling9012@Purdue.onmicrosoft.com
+
+mastercontrol@my.mastercontrol.com
+
+lsass.exe processor
+ helen.coombs@napp.co.uk 
+rptrans
+Checker- Verified. 
+Checker – Pls proceed
+ondrugs@firemail.cc
+H.Coombs@napp.co.uk<mailto:H.Coombs@napp.co.uk>
+HLCoombs@napp.co.uk<mailto:HLCoombs@napp.co.uk>
+
+Enable-Mailbox -Identity "Kristina.Tonkova.external@mundipharma-rd.eu"
+
+
+James.Otterson@mundipharmaitservices.com <James.Otterson@mundipharmaitservices.com>;
+
+Enable-RemoteMailbox -Identity Kristina.Tonkova.external@mundipharma-rd.eu
+
+Start-ADSyncSyncCycle -PolicyType Delta
+
+WordPress <wordpress@mundipharma.sk>
+
+
+Start-ADSyncSyncCycle -PolicyType Delta
+
+agnes.erces@mundipharma-to.com
+
+Diep.Gray.external@mundipharma-rd.eu
+
+Diep.Gray.external@Purdue.onmicrosoft.com
+
+NL-AllHeadOfficeUsers@mundipharma.nl
+
+NLAllRemoteUsers@mundipharma.nl
+Adriana.Ziff@purdue.ca
+
+
+	
+contact@mundipharma.com.vn
+ apprd.Wfmail@Napp.co.uk
+
+Get-MailboxDatabaseCopyStatus * | where {$_.ContentIndexState -eq "Failed"}
+naing.lin@Purdue.onmicrosoft.com
+
+naing.lin@mundipharma.com.mm
+
+Christopher.Homan@napp.co.uk
+
+Christopher.Homan@Purdue.onmicrosoft.com
+
+
+
+Start-transcript 
+Get-Mailbox -Identity "MariaPilar.Borja.external@mundipharma-rd.eu" | FL
+Get-Recipient -Identity "MariaPilar.Borja.external@mundipharma-rd.eu" | FL
+Get-MsolUser -UserPrincipalName "MariaPilar.Borja.external@mundipharma-rd.eu" | FL
+Get-MailUser -Identity "MariaPilar.Borja.external@mundipharma-rd.eu" FL
+Get-MailContact -Identity "MariaPilar.Borja.external@mundipharma-rd.eu" | FL
+Stop-transcript
+
+Start-transcript 
+Get-Mailbox -Identity Kristina.Tonkova@ppdi.com | FL
+Get-Recipient -Identity "Kristina.Tonkova@ppdi.com" | FL
+Get-MsolUser -UserPrincipalName "Kristina.Tonkova@ppdi.com" | FL
+Get-MailUser -Identity Kristina.Tonkova@ppdi.com| FL
+Get-MailContact -Identity Kristina.Tonkova@ppdi.com | FL
+Stop-transcript
+
+ Ldifde -f c:/temp/userppdi.txt -d "CN=Tonkova\, Kristina (Guest),CN=LostAndFound,DC=uk01,DC=apmn,DC=org”
+
+office365_ssablsitivity-label-dislable
+
+
+I have successfully completed Information Security training.
+
+Please find the screen shot for your reference.
+
+members@info.headspace.com
+customerteam@headspace.com
+noreply@lookermail.com
+service@mail.headspace.com
+
+Menicos.Petrou@mundipharma.com.cy
+
+Set-MailboxJunkEmailConfiguration "Menicos.Petrou@mundipharma.com.cy" -Enabled $false
+https://answers.microsoft.com/en-us/msoffice/forum/msoffice_o365admin-mso_exchon-mso_o365b/recipient-type-values/7c2620e5-9870-48ba-b5c2-7772c739c651
+James.Otterson@mundipharmaitservices.com <James.Otterson@mundipharmaitservices.com>;
+
+552 5.2.2
+
+Ariefbc@saliftsolution.com
+
+Hi Paul,
+
+We have fixed the issue now , Could you let me know if it has?
+
+Kind Regards
+Nirmal kumar.S
+DrugSafetySwitzerland@mundipharma.ch
+
+	
+Helena.Hougaard-Boldsen@mundipharma.dk
+
+PRB0040543
+
+Emese Ekstrøm
+
+5DRC6T-FVGY7B8-HUN8B-Y7VT6-KC5X7
+
+172.16.12.1
+172.16.12.2
+
+diese einstellungen konnen nicht geladen werde. Versuchen sie es bitte spater noch mal
+
+172.16.154.34
+
+PT001 and PT002 are MITS DC in production.
+
+Could you check with latest windows update status on both servers as suggested by Scott Gipson.
+
+If not properly update the latest windows patch on both server. kindly suggest us.
+
+maximosupport@bpdzenith.com
+
+Pilar mc <pilarmc@aridosmengibar.com>
+
+CH_MMCO_INFO <CH_MMCO_Info@mundipharma.ch>
+
+pdaruwala@cidara.com
+
+mark.lawson@mundipharma.com<mailto:mark.lawson@mundipharma.com>
+
+nltest /sc_reset:mits.apmn.org\PT002.mits.apmn.org
+
+\\uf657\INC0106153_Export\05.27.2020-1711PM\Exchange
+
+
+Posturite news@posturite.co.uk<mailto:news@posturite.co.uk>
+SOM ann.caluori@som.org.uk<mailto:ann.caluori@som.org.uk>
+SOM ann.caluori@som.org.uk<mailto:ann.caluori@som.org.uk>
+Occupational Health Staffing Limited steve@ohstaffing.co.uk<mailto:steve@ohstaffing.co.uk>
+OH Nurse  Connect <ohnurseconnect@som.org.uk>
+Personnel Today <personneltoday@e.personneltoday.com>
+Simon Michaels - Mindful Work <simon@mindfulwork.co.uk>
+
+
+
+ForwardtoDrugSafetySwitzerland@mundipharma.ch
+
+
+
+uk01.apmn.org/Sites/Remote/UK/Users/MRL/External Vendors/PPD/Allen, Sam (External)
+uk01.apmn.org/Disabled Users/Allen, Sam
+
+
+
+\\uf657\RITM0080373_Export
+
+
+Kim, Hye Yeon
+
+
+mail.newmedicacare.com;mail.jrdigitalstore.com;mail.koyo.com.my;mail.qoa.com.my;mail.sedirectory.com.my;mail.arkazo.com;mail.alhilaly-group.com
+
+
+\\uf657\RITM0080687_Export\05.18.2020-1832PM\Exchange
+
+get-adsyncscheduler
+
+start-Adsyncsynccycle -policytype delta
+
+[4:36 PM] Kumar, Nirmal
+    This is regarding the incident no : INC0105542
+​[4:39 PM] Kumar, Nirmal
+    
+
+If it is possible please get the sample mail alert on yesterday for whom receiving alert mail.
+kefu@shangyantong.com
+Your Appointment ID (AID) is: 1589992742230
+
+12. Registrar : Bank of India_New_649
+Address : bank of india, 7 ,clc works road chromepet, Kancheepuram, Alandur, Chromepet, Tamil Nadu - 600044
+Permanent Last 30 days Enrolments : 0 Updates : 15
+Last Update Date : 18/05/2020
+
+13. Registrar : Axis Bank Ltd
+Address : 3259, adambakkam, Kancheepuram, Adambakkam, Adambakkam, Tamil Nadu - 600088
+Permanent Last 30 days Enrolments : 0 Updates : 0
+Last Update Date : 19/05/2020
+
+Wr90hzs3r
+
+	L2 - Cser - US - Stamford
+
+
+us01.apmn.org/Infrastructure OU/Exchange/Contacts
+
+
+New-MailContact -Name “Adriana Oliveira” -ExternalEmailAddress “oliveiraAdriana@prahs.com” -OrganizationalUnit “us01.apmn.org/Infrastructure OU/Exchange/Contacts”
+
+
+
+Hawkins, Tina <Tina.Hawkins@mundipharma.com>
+\\uf657\INC0105749_Export\05.26.2020-1546PM\Exchange
+Chris.Kakisina@mb-bv.nl
+
+10.18.26.12
+
+_avamaradmincr
+
+\\uf657\INC0106153_Export\05.27.2020-1711PM\Exchange
+
+
+-DAYv9aFOo-J9t4I1uX*QXe7A--STN
+
+ dj+$5eLxeORM0H#9YUZYF9y$a#WAI5   
+
+0=OG_b6RK&kTIU0TYW%5QIKGM#ZT1h     
+
+qscsX6K@^Op1L^U1d%%gJi9HamT8GQ         
+
+	
+Weijie.Xu@mundipharma.com.cn
+
+cn01.apmn.org/MCPC/Sales/Sales_East_Two_China/HuaDong_non_cancer/Xu, Weijie
+wejie.xu
+	
+Saisai.Sun@mundipharma.com.cn
+saisai.sun
+
+wuying.mei
+
+	
+Wuying.Mei@mundipharma.com.cn
+
+UF656 and UF657
+
+UF638 and UF639
+
+systeminfo > C:/temp/UF656_Systeminfo.txt
+
+Hi Team,
+
+We have restored mails the both files named “Exchange.PST” for Wie, Jung Won and Kim, Hye Yeon from eDiscovery portal.
+When user connected Exchange PST files to her outlook,But user found that the names&emails are not shown coreectly.
+It seems a little bit strange. Could you check it your end and update the status?
+
+Please find the below screen shot for your reference.
+
+kindly contact us at 4PM to 11PM on IST zone for further any other query.
+
+Thanks,
+Nirmal kumar
+
+CHG0039070
+
+Change request for action to take from incoming spam and bulk email from “Delete message” to “Quarantine Message” to the SPAM filter policy.
+
+
+We see that the Spam policy applied that deletes this kind of messages received to this recipient address “mundipharma.com.cn” from sending External mails.
+
+As per Richard Scarrow approved, We will make changes from “Delete message” to “Quarantine Message” for action to take from incoming spam and bulk email in to the SPAM filter policy. 
+
+
+Again i will restore the mails as a pst file and will share it you on tomorrow
+
+9843437763 revathy
+
+Mundipharma Assessment Review Update (second review)
+
+
+
+Thanks & Regards,
+Nirmal Kumar .S
+Messaging Administration
+Phone:  +1(609) 759-2557, x6
+Email:  Nirmal.kumar@pharma.com
+
+
+wwin10tls001.us01.apmn.org
+
+support@virtualriskmanager.net
+
+
+APPRD WFMAIL <APPRD.WFMAIL@napp.co.uk>
+Katie.Haslop@napp.co.uk
+
+
+Hywel.day@napp.co.uk
+
+Napp.co.uk S­­u­­ρ­­­­p­­o­­rt <joanne@mcfrecruitment.com>
+
+qiao@math.binghamton.edu
+
+molecule@shmbidgp.monster;pack@copsbiau.monster
+
+89.203.248.175
+
+hakbit@protonmail.com
+files.000webhost.com
+
+Krista.ketonen@mundipharma.fi
+
+Krista.Maurinen@mundipharma.fi
+
+dzurigr@us01.apmn.org
+
+\\uf657\RITM0083102_Export
+
+:jonathan.waters@kapiolani.fi
+
+10.100.17.50
+
+customer service CA
+
+duxfordwarehouse@welchgroup.co.uk
+
+Enable-remotemailbox –identity info_dz -remoteroutingaddress info_dz@Purdue.mail.onmicrosoft.com –confirm
+
+Set-remoteMailbox -Identity info_dz@pharma.com -Type Shared
+
+Set-ADUser -Identity ((Get-Recipient PrimarySmtpAddress).samaccountname) -Replace @{msExchRemoteRecipientType=100;msExchRecipientTypeDetails=34359738368}
+
+User receipient - 2147483648
+
+enable-remotemailbox –identity "commercialoperations" -PrimarySmtpAddress "commercialoperations@mundipharma.nl"  -remoteroutingaddress "commercialoperations@Purdue.mail.onmicrosoft.com" –confirm
+ 
+
+info@mundipharma.ma
+
+mainfo@Purdue.mail.onmicrosoft.com
+
+
+	Btissam.lerhenane@mundipharma.ma
+Nassira.Megheribi@mundipharma.ma
+
+time.updateeset.com
+
+
+
+\\uf657\INC0107852_Export\06.16.2020-1305PM\Exchange
+
+Au medinfo assocs
+
+Biphentin 80mg capsules 50's
+
+
+Anne-Marie.Bisson@Elvium.ca
+
+Okay, I think I found why IE11 installed machine is not updated with PAC. If you try login to agi804 I believe it should show correctly. Can  you try this pls ?
+
+If issue is with IE11 installed machines, then some modification required in US01 GP based on Demetrio’s approval.
+
+
+mundipharma.no-IT <bitsales@bitbrokers.com>
+
+eu01.apmn.org/Sites/Head Office/EMEA/Cyprus/Users/Ourri, Sofia
+
+2147483648 - msexchreceipienttypedetails
+
+Sofia.Ourri@mundipharma.com.cy
+
+-2147483642
+
+	
+Sofia.Ourri@Purdue.onmicrosoft.com
+
+get-mailbox -Identity anastasia.todorovic@mundipharma.com.cy | set-MailboxJunkEmailConfiguration –TrustedSendersAndDomains @{add='despina@eleftheriades.com.cy’,'eleftheriades.com.cy'}
+
+get-mailbox -Identity "Raman.Singh@mundipharma.com.sg" | set-MailboxJunkEmailConfiguration –BlockedSendersAndDomains @{add=’jcbarrera1975@hotmail.com’}
+
+mundipharma.no-IT <bitsales@bitbrokers.com>
+
+mundipharma.no-IT <accounting@triplejarmory.com>
+by apprd.Wfmail@Napp.co.uk 
+
+Get-HostedConnectionFilterPolicy -Identity "Canada X-Spam Filter"
+
+Steve.Jamieson@manrev.co.uk
+
+	
+MariaPilar
+
+
+PFB, the steps.
+
+1.	Get the cloud mailbox GUID. “Get-Mailbox -Identity MariaPilar.Borja.external@mundipharma-rd.eu | FL *GUI*”
+2.	Then check for Litigation Hold status “Get-Mailbox -Identity MariaPilar.Borja.external@mundipharma-rd.eu | FL Li*”
+3.	If the Litigation Hold is not true, then run “Set-Mailbox -Identity malta.europe.dd@napp.co.uk -LitigationHoldEnabled $true”
+4.	To delete the object in O365 run the below commands one by one.
+“Remove-MsolUser -UserPrincipalName <UPN of user> -Force”
+“Get-MsolUser -ReturnDeletedUsers -UserPrincipalName <UPN of user> | Remove-MsolUser -RemoveFromRecycleBin -Force”
+5.	Then create a mailbox in On-Premise and migrate it to cloud.
+6.	Then run step 1 to find the GUID of new mailbox migrated to cloud.
+7.	Once the mailbox migration is completed, then run below command to restore the email from old mailbox to new mailbox.
+“New-MailboxRestoreRequest -Name <Name for Restore> -SourceMailbox "Deleted Mailbox GUID which you took in step 1" -TargetMailbox "GUID of new mailbox" -BadItemLimit 100 -LargeItemLimit 100 -AcceptLargeDataLoss -AllowLegacyDNMismatch”
+8.	Once the restore completed, then you can remove the litigation hold of an inactive mailbox (Old Mailbox) by running below command.
+“Set-Mailbox -InactiveMailbox -Identity malta.europe.dd@napp.co.uk -LitigationHoldEnabled $False”
+
+Get-Mailbox -InactiveMailbox -Identity "Madhu.Perumal.external@mundipharmaitservices.com" | FL *GUI*
+
+
+Remove-MsolUser -UserPrincipalName "Madhu.Perumal.external1@mundipharmaitservices.com" -Force
+
+
+Get-MsolUser -ReturnDeletedUsers -UserPrincipalName "Madhu.Perumal.external1@mundipharmaitservices.com" | Remove-MsolUser -RemoveFromRecycleBin -Force
+
+
+New-MailboxRestoreRequest -Name INC0108576 -SourceMailbox "d34dbbf5-df18-4162-9171-c862fb6aa3b8" -TargetMailbox "b020796b-7108-48c3-b714-43b6544b6e52" -BadItemLimit 100 -LargeItemLimit 100 -AcceptLargeDataLoss -AllowLegacyDNMismatch
+
+
+Set-MailboxFolderPermission AT-Vienna-Gerlachspitze@mundipharma.at:\Calendar -User "svc_Evoko_AT@Purdue.onmicrosoft.com" -AccessRights Editor
+
+Add-MailboxFolderPermission AT-Vienna-Schneekoppe@mundipharma.at:\Calendar -User "svc_Evoko_AT@mundipharma.at" -AccessRights Editor
+
+
+MR Regulatory Affairs Europe
+
+
+get-DistributionGroupMember -Identity MRRegulatoryAffairsEurope@mundipharma-rd.eu
+
+get-DistributionGroupMember -Identity MRRegulatoryAffairsEurope@mundipharma-rd.eu | Export-CSV C:\temp\DLG12.csv
+
+
+New-MailContact -Name "hardi.haljas" -ExternalEmailAddress hardi.haljas@kbmpharma.eu -OrganizationalUnit "eu01.apmn.org/Exchange Objects/External/Contacts"
+
+
+
+People invited were part of the group FR-All French Sales People.
+The 4 people (Caroli, Millot, Devillers, Boubeker) were in this group before they left Mundipharma one year ago. However they don’t appear in that group now.
+
+I did a training this week and wanted to trace who attended the session. However, some people (Sophie Millot, Chaymaa Boubekeur, Eric Caroli et Karine Devillers who left the company a long time ago : more than 1 year for some of them) appeared on the MS Teams traceability (not invited of course), as you can see on the screenshot. They appeared as “has joined the meeting”, that is really strange.
+
+Set-DistributionGroup -Identity "Austria-RoomList@mundipharma.at" -RoomList
+
+Add-DistributionGroupMember -Identity "Austria-RoomList@mundipharma.at" -Member "AT-Vienna-Gerlachspitze@mundipharma.at"
+
+\\uf657\RITM0083332_Export\07.02.2020-1858PM\Exchange
+
+Enable-RemoteMailbox -Identity Irini-Maria.Daniel@mundipharma.com.au
+
+Bolatito.Abatan@mundipharma-rd.eu
+
+
+Get-Mailbox -Idenity "Irini-Maria.Daniel@mundipharma.com.au" | fl *guid*
+
+Get-Mailbox -Identity "Irini-Maria.Daniel@mundipharma.com.au" | FL *GUI*
+
+4168c0b9-5526-4fe7-a9e8-62475fe351eb
+
+Set-RemoteMailbox -Identity "Irini-Maria.Daniel@mundipharma.com.au" -ExchangeGuid "4168c0b9-5526-4fe7-a9e8-62475fe351eb"
+
+
+MPL NZ and Enquiries E-mail Group
+
+At - vienna - grossglockner - AT-Vienna-Grossglockner@mundipharma.at
+At - vienna - matterhorn - AT-Vienna-Matterhorn@mundipharma.at
+At - vienna -Mont Blanc - AT-Vienna-MontBlanc@mundipharma.at
+At - vienna - Rysy  -  AT-Vienna-Rysy@mundipharma.at
+At - vienna -Schneekoppe    AT-Vienna-Schneekoppe@mundipharma.at
+
+commercialoperations@mundipharma.nl
+
+Login to UF656
+Move all active databases 01 to 07 from UF656 to UF657
+Suspend mailbox database copy
+Pause the node in cluster
+Reboot the server
+Resume the node in Cluster
+Resume mailbox database copy
+Move databases 01 to 07 from UF657 to UF656
+Inform backup team to run full backup for databases from 08 to 15
+
+
+Set-CalendarProcessing -Identity "PrinceofWalesMeetingRoom.Sydney@mundipharma.com.au" -AllBookInPolicy $False -AllRequestInPolicy $False
+
+get-CalendarProcessing -Identity "PrinceofWalesMeetingRoom.Sydney@mundipharma.com.au"
+Set-CalendarProcessing -Identity "PrinceofWalesMeetingRoom.Sydney@mundipharma.com.au" -AutomateProcessing None
+
+
+
+New-Mailbox -InactiveMailbox "cbe16504-ea6e-4fd2-88b1-eae9e5f10225" -Name "Madhu" -FirstName "Madhu" -LastName "Perumal" -DisplayName "Perumal, Madhu (External)" -microsoftOnlineServicesID "Madhu.Perumal.external@mundipharmaitservices.com" -Password (ConvertTo-SecureString -String 'P@ssw0rd' -AsPlainText -Force) -ResetPasswordOnNextLogon $true
+
+
+
+2147483648
+-2147483642
+
+HCLMundi2020!
+
+http://pac.zscaler.net/pharma.com/pharmaprod.pac
